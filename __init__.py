@@ -12,8 +12,9 @@ import matplotlib
 matplotlib.use('Agg')
 from .config import *
 from .star import *
-from . import moog, specpars, errors, abundances
-from . import isopars
+#from . import moog, specpars, errors, abundances
+#from . import isopars
+import moog, specpars, errors, abundances, isopars
 import logging
 
 logger = logging.getLogger(__name__)

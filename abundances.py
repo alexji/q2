@@ -1,4 +1,5 @@
-from . import moog
+#from . import moog
+import moog
 from .star import Star
 import numpy as np
 import datetime

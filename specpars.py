@@ -2,7 +2,8 @@ import numpy as np
 import os
 import logging
 import matplotlib.pyplot as plt
-from . import moog, errors
+#from . import moog, errors
+import moog, errors
 from .tools import linfit
 from .star import Star
 import datetime
